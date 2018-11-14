@@ -4620,6 +4620,15 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
     font-size: 18px;
     line-height: 20px
 }
+@media screen and (max-width: 786px){
+    .navbar-brand{
+    float: left;
+    height: 45px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+}
 
     .navbar-brand:focus, .navbar-brand:hover {
         text-decoration: none
