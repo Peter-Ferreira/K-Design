@@ -50,7 +50,7 @@ body {
     line-height: 1.6;
     overflow-x: hidden;
     color: #868F9B;
-    padding-top: 69px;
+    padding-top: 40px;
 
 }
 
@@ -119,7 +119,7 @@ a:hover, a:focus {
 ul, ol {
     margin: 0;
     padding: 0;
-    list-style: none
+    /* list-style: none */
 }
 
 /* -- section  -- */
@@ -731,7 +731,7 @@ height: auto;
     
     color: black;
     cursor: pointer;
-    padding: 18px;
+    padding: 10px;
     width: 100%;
     border: none;
     text-align: left;
@@ -740,11 +740,12 @@ height: auto;
 }
 
 .active, .collapsible:hover {
-    background-color: #555;
+    /* background-color: #555; */
 }
 
 .content {
     padding: 0 18px;
+    padding-top: 20px;
     display: none;
     overflow: hidden;
     background-color: #f1f1f1;
@@ -913,10 +914,10 @@ height: auto;
 
 .service {
     position: relative;
-    padding: 40px 20px 40px 40px;
+    padding: 40px 20px 40px 60px;
     margin: 15px 0px;
     border: 1px solid #EEE;
-    height: 320px;
+    /* height: 320px; */
 }
 
 .service i {
