@@ -24,7 +24,31 @@
 		}, 600);
 	});
 
-	$("#section05 a[href^='#']").on('click', function(e) {
+	// $("#section05 a[href^='#']").on('click', function(e) {
+	// 	e.preventDefault();
+	// 	var hash = this.hash;
+	// 	$('html, body').animate({
+	// 		scrollTop: $(this.hash).offset().top
+	// 	}, 600);
+	// });
+
+	$("#brandingPackaging a[href^='#']").on('click', function(e) {
+		e.preventDefault();
+		var hash = this.hash;
+		$('html, body').animate({
+			scrollTop: $(this.hash).offset().top
+		}, 600);
+	});
+
+	$("#logoDesign a[href^='#']").on('click', function(e) {
+		e.preventDefault();
+		var hash = this.hash;
+		$('html, body').animate({
+			scrollTop: $(this.hash).offset().top
+		}, 600);
+	});
+
+	$("#graphicDesign a[href^='#']").on('click', function(e) {
 		e.preventDefault();
 		var hash = this.hash;
 		$('html, body').animate({
