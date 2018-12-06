@@ -1367,12 +1367,12 @@ bottom: 0;
 
 .team {
     position: relative;
-    background-color: #F4F4F4;
+    /* background-color: #F4F4F4; */
     padding: 40px 20px;
     margin: 15px 0px;
 }
 
-.team::after {
+/* .team::after {
     content: "";
     background-color: #1C1D21;
     position: absolute;
@@ -1383,7 +1383,7 @@ bottom: 0;
     z-index: 1;
     -webkit-transition: 0.2s height;
     transition: 0.2s height;
-}
+} */
 
 .team:hover:after {
     height: 100%;
@@ -1396,10 +1396,12 @@ bottom: 0;
 }
 
 .team-img>img {
-  width: 100%;
+    width: 45%;
+    margin: auto;
+    border-radius: 10px 10px 10px 10px;
 }
 
-.team .overlay {
+/* .team .overlay {
     background: #1C1D21;
     position: absolute;
     bottom: 0;
@@ -1409,7 +1411,7 @@ bottom: 0;
     opacity: 0;
     -webkit-transition: 0.2s opacity;
     transition: 0.2s opacity;
-}
+} */
 
 .team:hover .overlay {
     opacity: 0.8;
@@ -1464,6 +1466,16 @@ bottom: 0;
     opacity: 1;
 }
 
+@media only screen and (min-width: 768px){
+#karin-ferreira-bio{
+    width:37.1%;
+}
+}
+@media only screen and (max-width: 768px){
+    #karin-ferreira-bio{
+        width:100%;
+    }
+    }
 
 /*------------------------------------*\
 	Blog
